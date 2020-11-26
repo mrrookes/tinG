@@ -1,52 +1,21 @@
 # tinG
+
+tinG can mean "this is not Genially". Is a javascript library to create interactive labels that you can insert in your webpages, or LMSs like Moodle.
+
+Here is an example of how to use it in Moodle. You need to insert the following code in any element that admits HTML. You also need to include the tinG function which is in tinG.js. You can either insert the function just after calling the function, or if you are using Moodle include it in the common header, at site level.
             
-<!doctype html>
-
-
-
-<html lang="en">
-
-<head>
-
-  <meta charset="utf-8">
-
-
-
-  <title>Gandaraly</title>
-
-  <meta name="description" content="Gandaraly">
-
-  <meta name="author" content="David G. Gandara">
-
-
-
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-
-
-
-</head>
-
-<body>
-
    
-
-<p><canvas id="canvas2"> Sorry. Your browser does not support HTML5 canvas element. </canvas></p>
-
+<p><canvas id="mycanvas"> Sorry. Your browser does not support HTML5 canvas element. </canvas></p>
 <script type="text/javascript">// <![CDATA[
-
-
-
-
-
-tinG("canvas2", 
-                       "execution.png",
+tinG("mycanvas", 
+                       "background.png",
                        0.4,
                        0.3, 
                        0.5,
                        0.3, 
                        0.5, 
-                       "Aquí imos implementar na aula virtual do centro a proposta que deseñamos previamente. Pechar[X]",
-                       "quetenoquefacer.png", 
+                       "This message will display when you click on the first element. Pechar[X]",
+                       "firstelement.png", 
                        "", 
                        "", 
                        "", 
@@ -54,17 +23,10 @@ tinG("canvas2",
                       0.5, 
                       0.3, 
                       0.5, 
-                      "Esta é a actividade central do curso, tómate o teu tempo para que quede o mellor posible. Pechar[X]", 
-                      "cando.png", 
+                      "This message will display when you click on the second element. Pechar[X]", 
+                      "secondelement.png", 
                       "",
                       "",
                       "");
-
-       
-
 // ]]></script>
-
-    </body>
-
-</html>
 
