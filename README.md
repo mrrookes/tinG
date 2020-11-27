@@ -1,6 +1,6 @@
-# tinG.li
+# tinG.li 听力
 
-tinG.li can mean "this is not Genial.ly". Is a javascript library to create interactive labels that you can insert in your webpages, or LMSs like Moodle.
+tinG.li can mean "Ting.li is not Genial.ly". Is a javascript library to create interactive labels that you can insert in your webpages, or LMSs like Moodle.
 
 ## Usage in Moodle (creating a label):
 
