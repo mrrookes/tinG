@@ -57,7 +57,8 @@ tingli("mycanvas",
                       
 // ]]></script>`
 ```
-With this function we add two elements. Both display a message when clicked. The first one is displayd at 30% horizontal and 50% vertical, width 30% and height 50%. The second one is locates at 60% horizontally, 50% vertically. width is 30% and height is 50%. This is how you see it:
+With this function we add two elements. Both display a message when clicked. The first one is displayd at 30% horizontal and 50% vertical, width 30% and height 50%. The second one is locates at 60% horizontally, 50% vertically. width is 30% and height is 50%. This is how you would see it:
+
 ![Interactive label](executar.png)
 
 
