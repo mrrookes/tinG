@@ -1,4 +1,4 @@
-function tinG(){
+function tingli(){
 
       /*La función toma como argumentos los siguientes nombre del elemento canvas, imagen de fondo, 
       posición horizontal, en relación al tamaño disponible, posición vertical, en relación al tamaño disponible,
