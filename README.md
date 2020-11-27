@@ -12,7 +12,7 @@ tinG.li can mean "Ting.li is not Genial.ly". Is a javascript library to create i
    
 `<p><canvas id="mycanvas"> Sorry. Your browser does not support HTML5 canvas element. </canvas></p>`
 
-3. Call the tingli function. The arguments are:
+3. Call the tingli function. It needs at list 11 arguments to work. The first two define the background, after this, in groups of nine you can define any number of interactive elements. The arguments are:
 
 Argument | Usage
 ---------|--------
