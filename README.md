@@ -13,21 +13,23 @@ tinG.li can mean "Ting.li is not Genial.ly". Is a javascript library to create i
 `<p><canvas id="mycanvas"> Sorry. Your browser does not support HTML5 canvas element. </canvas></p>`
 
 3. Call the tingli function. The arguments are:
- (background)
- - *background image*. Copy the link from the corresponding image that you attached on step 1.
- - *vertical proportion*. The label will always use all the width that is allowed, in this argument you specify the hight. For example, if it is a perfect square, the height will be 1. If it is half the size of the width, the height will be 0.5
- (first element)
- - *horizontal position*. This is a proportion of the width. 0.5, it will be in the center. If you write 0.25 it would be at one fourth from the left border. 0.75 will be at 1/4 of the right border. 
- - *vertical position*. Same as for the horizontal
- - *width*. As a proportion of the total width. 0.5 will be half the total size, and so forth.
- - *height*. The same for height
- - *message*: What you write here will be displayed as a message when you click on this element.
- - *image*: The image file for this element. Copy the link from the corresponding image that you attached on step 1.
- - *link*: URL to go to when you click on the element. This will only work if you leave the message empty.
- - *audio*: audio to play when you click. Copy here the link to the file you attached on step 1. This will only work if you leave the message and the link empty. 
- - video: video to play when you click. Insert here a youtube link. This will only work if you leave the message, the link and the audio empty.
-(second and more elements)
-Just repeat what you did for the first element.
+Argument | Usage
+---------|--------
+ (background)|
+ *background image* | Copy the link from the corresponding image that you attached on step 1.
+ *vertical proportion* | The label will always use all the width that is allowed, in this argument you specify the hight. For example, if it is a perfect square, the height will be 1. If it is half the size of the width, the height will be 0.5
+ (first element)|
+ *horizontal position* | This is a proportion of the width. 0.5, it will be in the center. If you write 0.25 it would be at one fourth from the left border. 0.75 will be at 1/4 of the right border. 
+ *vertical position* | Same as for the horizontal
+ *width* | As a proportion of the total width. 0.5 will be half the total size, and so forth.
+ *height* | The same for height
+ *message* | What you write here will be displayed as a message when you click on this element.
+ *image* | The image file for this element. Copy the link from the corresponding image that you attached on step 1.
+ *link* | URL to go to when you click on the element. This will only work if you leave the message empty.
+ *audio* | audio to play when you click. Copy here the link to the file you attached on step 1. This will only work if you leave the message and the link empty. 
+ *video*| video to play when you click. Insert here a youtube link. This will only work if you leave the message, the link and the audio empty.
+(second and more elements) |
+Just repeat what you did for the first element |
 
 Example:
 ```
