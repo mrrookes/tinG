@@ -14,17 +14,17 @@ tinG.li can mean "Ting.li is not Genial.ly". Is a javascript library to create i
 
 3. Call the tingli function. The arguments are:
  (background)
- - background image. Copy the link from the corresponding image that you attached on step 1.
- - vertical proportion. The label will always use all the width that is allowed, in this argument you specify the hight. For example, if it is a perfect square, the height will be 1. If it is half the size of the width, the height will be 0.5
+ - *background image*. Copy the link from the corresponding image that you attached on step 1.
+ - *vertical proportion*. The label will always use all the width that is allowed, in this argument you specify the hight. For example, if it is a perfect square, the height will be 1. If it is half the size of the width, the height will be 0.5
  (first element)
- - horizontal position. This is a proportion of the width. 0.5, it will be in the center. If you write 0.25 it would be at one fourth from the left border. 0.75 will be at 1/4 of the right border. 
- - vertical position. Same as for the horizontal
- - width. As a proportion of the total width. 0.5 will be half the total size, and so forth.
- - height. The same for height
- - message: What you write here will be displayed as a message when you click on this element.
- - image: The image file for this element. Copy the link from the corresponding image that you attached on step 1.
- - link: URL to go to when you click on the element. This will only work if you leave the message empty.
- - audio: audio to play when you click. Copy here the link to the file you attached on step 1. This will only work if you leave the message and the link empty. 
+ - *horizontal position*. This is a proportion of the width. 0.5, it will be in the center. If you write 0.25 it would be at one fourth from the left border. 0.75 will be at 1/4 of the right border. 
+ - *vertical position*. Same as for the horizontal
+ - *width*. As a proportion of the total width. 0.5 will be half the total size, and so forth.
+ - *height*. The same for height
+ - *message*: What you write here will be displayed as a message when you click on this element.
+ - *image*: The image file for this element. Copy the link from the corresponding image that you attached on step 1.
+ - *link*: URL to go to when you click on the element. This will only work if you leave the message empty.
+ - *audio*: audio to play when you click. Copy here the link to the file you attached on step 1. This will only work if you leave the message and the link empty. 
  - video: video to play when you click. Insert here a youtube link. This will only work if you leave the message, the link and the audio empty.
 (second and more elements)
 Just repeat what you did for the first element.
@@ -57,6 +57,9 @@ tingli("mycanvas",
                       
 // ]]></script>`
 ```
+With this function we add two elements. Both display a message when clicked. The first one is displayd at 30% horizontal and 50% vertical, width 30% and height 50%. The second one is locates at 60% horizontally, 50% vertically. width is 30% and height is 50%. This is how you see it:
+![Interactive label](executar.png)
+
 
 4. If the library is not installed for the whole system "adding to headers" in site administration, you have to include the code. You only need to do this once per page. For example, if you do some labels for the course topics, you only need to include the code in one of them.
 
