@@ -31,7 +31,7 @@ Just repeat what you did for the first element.
 
 Example:
 
-`<script type="text/javascript">``// <![CDATA[`
+`<script type="text/javascript">// <![CDATA[
 `tingli("mycanvas", 
 
                        "background.png",
@@ -54,8 +54,8 @@ Example:
                       "",
                       "",
                       "");
-                      
-// ]]></script>`
+`                      
+`// ]]></script>`
 
 4. If the library is not installed for the whole system "adding to headers" in site administration, you have to include the code. You only need to do this once per page. For example, if you do some labels for the course topics, you only need to include the code in one of them.
 
