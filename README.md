@@ -31,8 +31,8 @@ Just repeat what you did for the first element.
 
 Example:
 
-`<script type="text/javascript">// <![CDATA[
-tingli("mycanvas", 
+`<script type="text/javascript">``// <![CDATA[`
+`tingli("mycanvas", 
 
                        "background.png",
                        0.4,
