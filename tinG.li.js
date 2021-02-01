@@ -46,7 +46,7 @@ function tingli(){
            var new_object = {topX:canvas.width*arguments[x] , 
                                topY:canvas.height*arguments[x+1], 
                                width: canvas.width*arguments[x+2], 
-                               height:canvas.heigth*arguments[x+3], 
+                               height:canvas.height*arguments[x+3], 
                                message:arguments[x+4], 
                                image:arguments[x+5],  
                                link:arguments[x+6], 
