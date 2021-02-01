@@ -34,11 +34,11 @@ function tingli(){
         var ctx = canvas.getContext('2d');
 
         canvas.style.width = '100%';
-        canvas.style.height = 600; //alto del canvas, ajustar segun a proporcion da imaxe
+        canvas.style.height = canvas.offsetWidth*arguments[2];
 
         canvas.width = canvas.offsetWidth;
 
-        canvas.heigth = canvas.offsetHeight;
+        canvas.heigth = canvas.offsetWidth*arguments[2];
 
         var objects=[];
 
